@@ -1,0 +1,19 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+.git/
+
+# local archive material
+archive/local-only/
+legacy/misc/
+legacy/clubelo/elo/.Rhistory
+legacy/clubelo/elo/*.RData
+legacy/clubelo/elo/rsconnect/
+
+# rendered notebooks and other local clutter in legacy
+legacy/**/*.nb.html
+
+# macOS and editor junk
+*.swp
+*.swo

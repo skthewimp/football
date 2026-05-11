@@ -5,10 +5,15 @@ library(tidyr)
 
 current_wd <- normalizePath(getwd(), mustWork = TRUE)
 project_root <- if (basename(current_wd) == "app") normalizePath("..", mustWork = TRUE) else current_wd
-data_path <- file.path(project_root, "data", "derived", "manager_elo_eng.rds")
+data_candidates <- c(
+  file.path(project_root, "manager_elo_eng.rds"),
+  file.path(project_root, "app", "manager_elo_eng.rds"),
+  file.path(project_root, "data", "derived", "manager_elo_eng.rds")
+)
+data_path <- data_candidates[file.exists(data_candidates)][1]
 
-if (!file.exists(data_path)) {
-  stop("Missing data/derived/manager_elo_eng.rds. Run scripts/refresh_all.R first.")
+if (is.na(data_path) || !file.exists(data_path)) {
+  stop("Missing manager_elo_eng.rds. Run scripts/refresh_all.R and copy the refreshed file into app/ before deployment.")
 }
 
 mgrelo <- readRDS(data_path)

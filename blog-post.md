@@ -16,3 +16,5 @@ The most useful technical decision was to stop pretending the old folder had one
 The other interesting part was source fragility. Old sports-analysis code often "works" only because a website looked a certain way years ago. Rebuilding the pipeline meant testing whether ClubElo still exposed the club-history CSV endpoints and making the manager-table scraping less dependent on exact table positions.
 
 If you’ve accumulated a similar graveyard of half-remembered sports scripts, the lesson is simple: don’t document the chaos, reduce it. Pick the one artifact worth maintaining, build a clean path to reproduce it, and archive the rest honestly.
+
+Repo: https://github.com/skthewimp/football

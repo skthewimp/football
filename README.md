@@ -2,6 +2,8 @@
 
 This repository is a cleaned-up version of an old football analysis folder, narrowed to one maintainable project: downloading English club history from ClubElo, joining it to manager-tenure data from Wikipedia, and exploring the result in a small Shiny app.
 
+Repo: https://github.com/skthewimp/football
+
 The live data source still appears to be available as of May 10, 2026:
 
 - `clubelo.com` for current ratings and historical club timelines
@@ -61,3 +63,7 @@ shiny::runApp("app")
 ## Notes on scope
 
 This repo does not try to cleanly publish every historical experiment from the original folder. Most of that material has been moved under `legacy/` or `archive/local-only/` so the maintained part of the project is understandable and pushable.
+
+## Repository
+
+- GitHub: https://github.com/skthewimp/football

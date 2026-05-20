@@ -1,0 +1,10 @@
+name: football_club_elo_by_manager
+title:
+username: kart
+account: kart
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 621441
+bundleId: 12017069
+url: https://kart.shinyapps.io/football_club_elo_by_manager/
+version: 1

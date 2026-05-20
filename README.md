@@ -52,7 +52,7 @@ This writes:
 - `data/derived/manager_elo_eng.rds`
 - `data/derived/manager_elo_eng_latest.csv`
 
-The current snapshot generated during this cleanup run ends at `2026-05-31` in ClubElo's data, with the repo refreshed on `2026-05-10`.
+The current snapshot generated during the latest refresh ends at `2026-05-31` in ClubElo's `From` dates, with the repo refreshed on `2026-05-20`.
 
 ## Run the app
 

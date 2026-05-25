@@ -93,7 +93,7 @@ These write:
 - `docs/figures/epl-2025-26-points-by-matchday.png`: cumulative points by matches played
 - `docs/figures/epl-2025-26-points-by-matchday-faceted.png`: one matchday panel per club
 
-As of the latest download on `2026-05-24`, Football-Data has `370` completed 2025-26 Premier League matches through `2026-05-19`, so the 2025-26 charts are season-to-date rather than final-table charts.
+As of the latest download on `2026-05-25`, Football-Data has all `380` completed 2025-26 Premier League matches through `2026-05-24`, so the 2025-26 charts now cover the full season.
 
 ## Run the app
 

@@ -48,8 +48,8 @@ team_order <- points_progression %>%
   pull(team)
 
 team_stories <- c(
-  "Arsenal" = "Two five-win bursts, four wins to close",
-  "Man City" = "Six-win midseason run, late chase",
+  "Arsenal" = "Three five-win bursts, five wins to close",
+  "Man City" = "Six-win midseason run, final-day stumble",
   "Man United" = "Four-win spring burst lifts them to third",
   "Aston Villa" = "Eight straight wins drive the season",
   "Liverpool" = "Five straight wins, then four losses",
@@ -57,7 +57,7 @@ team_stories <- c(
   "Brighton" = "Late three-win run pushes top half",
   "Chelsea" = "Four straight wins, then six losses",
   "Brentford" = "Five straight draws stall late push",
-  "Sunderland" = "Four straight draws, then steady finish",
+  "Sunderland" = "Four straight draws, two wins to close",
   "Newcastle" = "Four straight losses blunt the run-in",
   "Everton" = "Stop-start, never more than two wins",
   "Fulham" = "Three-win run offsets early slide",
@@ -65,7 +65,7 @@ team_stories <- c(
   "Crystal Palace" = "Bright early spell fades late",
   "Nott'm Forest" = "Three straight late wins rescue finish",
   "Tottenham" = "Five-loss slide defines the run-in",
-  "West Ham" = "Three straight losses to close",
+  "West Ham" = "Three-loss skid before final-day win",
   "Burnley" = "Seven-loss autumn run, five-loss finish",
   "Wolves" = "Eleven straight losses after early slump"
 )
